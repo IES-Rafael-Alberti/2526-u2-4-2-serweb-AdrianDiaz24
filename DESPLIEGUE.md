@@ -151,8 +151,8 @@ Este documento recopila todas las evidencias y respuestas de la practica.
 ### h) Ajustes para implantacion de apps
 - Respuesta:
 - Evidencias:
-  - evidencias/h-01-root.png
-  - evidencias/h-02-reloj.png
+  - ![](img/evidencia4.png)
+  - ![](img/evidencia9.png)
 
 ### i) Virtualizacion en despliegue
 - Respuesta:
