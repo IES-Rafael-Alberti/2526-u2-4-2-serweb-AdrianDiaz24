@@ -157,7 +157,7 @@ Este documento recopila todas las evidencias y respuestas de la practica.
 ### i) Virtualizacion en despliegue
 - Respuesta:
 - Evidencias:
-  - evidencias/i-01-compose-ps.png
+  - ![](img/evidencia7.png)
 
 ### j) Logs: monitorizacion y analisis
 - Respuesta:
