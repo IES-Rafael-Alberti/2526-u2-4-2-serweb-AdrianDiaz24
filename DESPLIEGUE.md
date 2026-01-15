@@ -136,7 +136,13 @@ Este documento recopila todas las evidencias y respuestas de la practica.
 - Respuesta:
 - Evidencias:
   - evidencias/f-01-https.png
+
+ ![](img/evidencia10.png)
+
+ 
   - evidencias/f-02-301-network.png
+
+![](img/evidencia11.png)
 
 ### g) Documentacion
 - Respuesta:
@@ -182,7 +188,7 @@ Este documento recopila todas las evidencias y respuestas de la practica.
 - [ ] c) Sitios virtuales / multi-sitio
 - [ ] d) Autenticacion y control de acceso
 - [ ] e) Certificados digitales
-- [ ] f) Comunicaciones seguras
+- [x] f) Comunicaciones seguras
 - [ ] g) Documentacion
 - [ ] h) Ajustes para implantacion de apps
 - [ ] i) Virtualizacion en despliegue
