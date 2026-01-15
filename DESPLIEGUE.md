@@ -164,17 +164,17 @@ Este documento recopila todas las evidencias y respuestas de la practica.
 ## Checklist final
 
 ### Parte 1
-- [ ] 1) Servicio Nginx activo
-- [ ] 2) Configuracion cargada
-- [ ] 3) Resolucion de nombres
-- [ ] 4) Contenido Web (Cloud Academy)
-- [ ] 5) Conexion SFTP exitosa
-- [ ] 6) Permisos de escritura
-- [ ] 7) Contenedores activos
-- [ ] 8) Persistencia (Volumen compartido)
-- [ ] 9) Despliegue multi-sitio (/reloj)
-- [ ] 10) Cifrado SSL
-- [ ] 11) Redireccion forzada (301)
+- [X] 1) Servicio Nginx activo
+- [x] 2) Configuracion cargada
+- [X] 3) Resolucion de nombres
+- [x] 4) Contenido Web (Cloud Academy)
+- [x] 5) Conexion SFTP exitosa
+- [x] 6) Permisos de escritura
+- [x] 7) Contenedores activos
+- [x] 8) Persistencia (Volumen compartido)
+- [x] 9) Despliegue multi-sitio (/reloj)
+- [x] 10) Cifrado SSL
+- [x] 11) Redireccion forzada (301)
 
 ### Parte 2 (RA2)
 - [ ] a) Parametros de administracion
