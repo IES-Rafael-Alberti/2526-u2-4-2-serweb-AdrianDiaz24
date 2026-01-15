@@ -11,55 +11,66 @@ Este documento recopila todas las evidencias y respuestas de la practica.
 1) Servicio Nginx activo
 - Que demuestra: Que los contenedores estan creados y activos
 - Comando: docker compose ps
-- Evidencia: ![](img/evidencia1.png)
+- Evidencia:
+![](img/evidencia1.png)
 
 2) Configuracion cargada
-- Que demuestra:
-- Comando:
-- Evidencia:![](img/evidencia2.png)
+- Que demuestra: que la configuracion esta cargada en nginx
+- Comando: ls -l /etc/nginx/conf.d/
+- Evidencia:
+![](img/evidencia2.png)
 
 3) Resolucion de nombres
-- Que demuestra:
-- Evidencia: ![](img/evidencia3.png)
+- Que demuestra: Que se puede acceder usando un nombre en vez del localhost
+- Evidencia:
+![](img/evidencia3.png)
 
 4) Contenido Web
-- Que demuestra:
-- Evidencia: ![](img/evidencia4.png)
+- Que demuestra: Que se ha añadido el contenido a nginx y se accede desde el navegador
+- Evidencia:
+![](img/evidencia4.png)
 
 ### Fase 2: Transferencia SFTP (Filezilla)
 
 5) Conexion SFTP exitosa
-- Que demuestra:
-- Evidencia: ![](img/evidencia5.png)
+- Que demuestra: Que he conseguido conectarme de forma exitosa desde Filezilla a travez de SFTP para subir los archivos a nginx
+- Evidencia:
+![](img/evidencia5.png)
 
 6) Permisos de escritura
-- Que demuestra:
-- Evidencia: ![](img/evidencia6.png)
+- Que demuestra: Que tengo permisos de escritura pudiendo subir archivos al directorio upload
+- Evidencia:
+![](img/evidencia6.png)
 
 ### Fase 3: Infraestructura Docker
 
 7) Contenedores activos
-- Que demuestra:
-- Comando:
-- Evidencia: ![](img/evidencia7.png)
+- Que demuestra: Que los contenedores estan activos
+- Comando: docker compose ps
+- Evidencia:
+![](img/evidencia7.png)
 
 8) Persistencia (Volumen compartido)
-- Que demuestra:
-- Evidencia: ![](img/evidencia8.png)
+- Que demuestra: Que el directorio upload se comparte tanto para la pagina principal como para la del reloj
+- Evidencia:
+![](img/evidencia8.png)
 
 9) Despliegue multi-sitio
-- Que demuestra:
-- Evidencia: ![](img/evidencia9.png)
+- Que demuestra: Que se puede acceedr al segundo sitio desde la misma pagina
+- Evidencia:
+![](img/evidencia9.png)
 
 ### Fase 4: Seguridad HTTPS
 
 10) Cifrado SSL
-- Que demuestra:
-- Evidencia: ![](img/evidencia10.png)
+- Que demuestra: El cifrado SSL con la conexion HTTPS autofirmado por mi
+- Evidencia:
+![](img/evidencia10.png)
 
 11) Redireccion forzada
-- Que demuestra:
-- Evidencia: ![](img/evidencia11.png)
+- Que demuestra: Que al conectarme por HTTP lo primero que hace es la redireccion a HTTPS
+- Evidencia:
+![](img/evidencia11.png)
 
 ---
 
