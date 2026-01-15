@@ -9,57 +9,78 @@ Este documento recopila todas las evidencias y respuestas de la practica.
 ### Fase 1: Instalacion y configuracion
 
 1) Servicio Nginx activo
-- Que demuestra:
-- Comando:
+- Que demuestra: Que los contenedores estan creados y activos
+- Comando: docker compose ps
 - Evidencia:
+
+![](img/evidencia1.png)
 
 2) Configuracion cargada
-- Que demuestra:
-- Comando:
+- Que demuestra: que la configuracion esta cargada en nginx
+- Comando: ls -l /etc/nginx/conf.d/
 - Evidencia:
+
+![](img/evidencia2.png)
 
 3) Resolucion de nombres
-- Que demuestra:
+- Que demuestra: Que se puede acceder usando un nombre en vez del localhost
 - Evidencia:
 
+![](img/evidencia3.png)
+
 4) Contenido Web
-- Que demuestra:
+- Que demuestra: Que se ha añadido el contenido a nginx y se accede desde el navegador
 - Evidencia:
+![](img/evidencia4.png)
 
 ### Fase 2: Transferencia SFTP (Filezilla)
 
 5) Conexion SFTP exitosa
-- Que demuestra:
+- Que demuestra: Que he conseguido conectarme de forma exitosa desde Filezilla a travez de SFTP para subir los archivos a nginx
 - Evidencia:
 
+![](img/evidencia5.png)
+
 6) Permisos de escritura
-- Que demuestra:
+- Que demuestra: Que tengo permisos de escritura pudiendo subir archivos al directorio upload
 - Evidencia:
+
+![](img/evidencia6.png)
 
 ### Fase 3: Infraestructura Docker
 
 7) Contenedores activos
-- Que demuestra:
-- Comando:
+- Que demuestra: Que los contenedores estan activos
+- Comando: docker compose ps
 - Evidencia:
+
+![](img/evidencia7.png)
 
 8) Persistencia (Volumen compartido)
-- Que demuestra:
+- Que demuestra: Que el directorio upload se comparte tanto para la pagina principal como para la del reloj
 - Evidencia:
 
+![](img/evidencia8.png)
+
 9) Despliegue multi-sitio
-- Que demuestra:
+- Que demuestra: Que se puede acceedr al segundo sitio desde la misma pagina
 - Evidencia:
+
+![](img/evidencia9.png)
 
 ### Fase 4: Seguridad HTTPS
 
 10) Cifrado SSL
-- Que demuestra:
+- Que demuestra: El cifrado SSL con la conexion HTTPS autofirmado por mi
 - Evidencia:
 
+![](img/evidencia10.png)
+
 11) Redireccion forzada
-- Que demuestra:
+- Que demuestra: Que al conectarme por HTTP lo primero que hace es la redireccion a HTTPS
 - Evidencia:
+
+![](img/evidencia11.png)
 
 ---
 
@@ -112,10 +133,16 @@ Este documento recopila todas las evidencias y respuestas de la practica.
   - evidencias/e-03-defaultconf-ssl.png
 
 ### f) Comunicaciones seguras
-- Respuesta:
-- Evidencias:
+- Respuesta: Se usa 2 bloques porque al entrar por el nombre y no por el puerto, el buscador entra directamente por HTTP y sino estuviera daria error en cambio de esa forma te redirige al que tiene HTTPS pudiendo acceder al contenido de la pagina.
+- Evidencias: 
   - evidencias/f-01-https.png
+
+ ![](img/evidencia10.png)
+
+ 
   - evidencias/f-02-301-network.png
+
+![](img/evidencia11.png)
 
 ### g) Documentacion
 - Respuesta:
@@ -124,13 +151,13 @@ Este documento recopila todas las evidencias y respuestas de la practica.
 ### h) Ajustes para implantacion de apps
 - Respuesta:
 - Evidencias:
-  - evidencias/h-01-root.png
-  - evidencias/h-02-reloj.png
+  - ![](img/evidencia4.png)
+  - ![](img/evidencia9.png)
 
 ### i) Virtualizacion en despliegue
 - Respuesta:
 - Evidencias:
-  - evidencias/i-01-compose-ps.png
+  - ![](img/evidencia7.png)
 
 ### j) Logs: monitorizacion y analisis
 - Respuesta:
@@ -143,17 +170,17 @@ Este documento recopila todas las evidencias y respuestas de la practica.
 ## Checklist final
 
 ### Parte 1
-- [ ] 1) Servicio Nginx activo
-- [ ] 2) Configuracion cargada
-- [ ] 3) Resolucion de nombres
-- [ ] 4) Contenido Web (Cloud Academy)
-- [ ] 5) Conexion SFTP exitosa
-- [ ] 6) Permisos de escritura
-- [ ] 7) Contenedores activos
-- [ ] 8) Persistencia (Volumen compartido)
-- [ ] 9) Despliegue multi-sitio (/reloj)
-- [ ] 10) Cifrado SSL
-- [ ] 11) Redireccion forzada (301)
+- [X] 1) Servicio Nginx activo
+- [x] 2) Configuracion cargada
+- [X] 3) Resolucion de nombres
+- [x] 4) Contenido Web (Cloud Academy)
+- [x] 5) Conexion SFTP exitosa
+- [x] 6) Permisos de escritura
+- [x] 7) Contenedores activos
+- [x] 8) Persistencia (Volumen compartido)
+- [x] 9) Despliegue multi-sitio (/reloj)
+- [x] 10) Cifrado SSL
+- [x] 11) Redireccion forzada (301)
 
 ### Parte 2 (RA2)
 - [ ] a) Parametros de administracion
@@ -161,7 +188,7 @@ Este documento recopila todas las evidencias y respuestas de la practica.
 - [ ] c) Sitios virtuales / multi-sitio
 - [ ] d) Autenticacion y control de acceso
 - [ ] e) Certificados digitales
-- [ ] f) Comunicaciones seguras
+- [x] f) Comunicaciones seguras
 - [ ] g) Documentacion
 - [ ] h) Ajustes para implantacion de apps
 - [ ] i) Virtualizacion en despliegue
