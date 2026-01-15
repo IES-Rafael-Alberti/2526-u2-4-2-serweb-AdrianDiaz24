@@ -133,8 +133,8 @@ Este documento recopila todas las evidencias y respuestas de la practica.
   - evidencias/e-03-defaultconf-ssl.png
 
 ### f) Comunicaciones seguras
-- Respuesta:
-- Evidencias:
+- Respuesta: Se usa 2 bloques porque al entrar por el nombre y no por el puerto, el buscador entra directamente por HTTP y sino estuviera daria error en cambio de esa forma te redirige al que tiene HTTPS pudiendo acceder al contenido de la pagina.
+- Evidencias: 
   - evidencias/f-01-https.png
 
  ![](img/evidencia10.png)
