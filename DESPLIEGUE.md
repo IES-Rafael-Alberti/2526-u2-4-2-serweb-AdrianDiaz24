@@ -9,57 +9,57 @@ Este documento recopila todas las evidencias y respuestas de la practica.
 ### Fase 1: Instalacion y configuracion
 
 1) Servicio Nginx activo
-- Que demuestra:
-- Comando:
-- Evidencia:
+- Que demuestra: Que los contenedores estan creados y activos
+- Comando: docker compose ps
+- Evidencia: ![](img/evidencia1.png)
 
 2) Configuracion cargada
 - Que demuestra:
 - Comando:
-- Evidencia:
+- Evidencia:![](img/evidencia2.png)
 
 3) Resolucion de nombres
 - Que demuestra:
-- Evidencia:
+- Evidencia: ![](img/evidencia3.png)
 
 4) Contenido Web
 - Que demuestra:
-- Evidencia:
+- Evidencia: ![](img/evidencia4.png)
 
 ### Fase 2: Transferencia SFTP (Filezilla)
 
 5) Conexion SFTP exitosa
 - Que demuestra:
-- Evidencia:
+- Evidencia: ![](img/evidencia5.png)
 
 6) Permisos de escritura
 - Que demuestra:
-- Evidencia:
+- Evidencia: ![](img/evidencia6.png)
 
 ### Fase 3: Infraestructura Docker
 
 7) Contenedores activos
 - Que demuestra:
 - Comando:
-- Evidencia:
+- Evidencia: ![](img/evidencia7.png)
 
 8) Persistencia (Volumen compartido)
 - Que demuestra:
-- Evidencia:
+- Evidencia: ![](img/evidencia8.png)
 
 9) Despliegue multi-sitio
 - Que demuestra:
-- Evidencia:
+- Evidencia: ![](img/evidencia9.png)
 
 ### Fase 4: Seguridad HTTPS
 
 10) Cifrado SSL
 - Que demuestra:
-- Evidencia:
+- Evidencia: ![](img/evidencia10.png)
 
 11) Redireccion forzada
 - Que demuestra:
-- Evidencia:
+- Evidencia: ![](img/evidencia11.png)
 
 ---
 
